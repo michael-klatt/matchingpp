@@ -1,0 +1,17 @@
+Package: matchingpp
+Type: Package
+Title: Stable Matching of Point Patterns
+Version: 0.1.0
+Author: Michael Andreas Klatt
+Maintainer: Michael Andreas Klatt <software@mklatt.org>
+Description: Mutual nearest neighbor matching of two point patterns on the torus:
+    Two point patterns (e.g. a stationarized lattice,
+    a Poisson point process, or data from csv files)
+    are matched to each other via the stable mutual nearest
+    neighbor matching. Typically this results in a thinnig of
+    one of the two point patterns.
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
+Depends: RANN
+RoxygenNote: 6.1.0
